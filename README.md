@@ -12,3 +12,5 @@ Tenemos un objetivo a realizar en esta práctica, que es el de vencer a los tres
 ninja 2 y ninja 3) con nuestra implementación del algoritmo y la heurística. El algoritmo a
 implementar podía ser o MiniMax o AlphaBeta (consiguiendo en este último una profundidad de
 búsqueda mayor, y por tanto, mejores resultados).
+
+- Para ejecutarlo hacer make y luego ./Conecta4Boom.
