@@ -1,16 +1,16 @@
 # Conecta4Boom
-Implementación del famoso juego Conecta4 modificado y con IA heurística.
+Implementation of the famous Connect4 game modified and with heuristic AI.
 
-- Este proyecto consiste en el diseño de algoritmos de búsqueda con adversarios en un entorno de
-juego. En este caso, el juego es el conocido cuatro en raya o conecta cuatro, pero con una pequeña
-característica extra (fichas bomba).
-Estas fichas bomba añaden al juego una nueva acción, que es la de hacerlas explotar. Al hacerlo,
-destruiremos todas las casillas existentes en esa fila que sean del adversario, de este modo, todas las
-casillas posicionadas arriba de estas caerán por gravedad a la posición de las fichas anteriormente
-explotadas.
-Tenemos un objetivo a realizar en esta práctica, que es el de vencer a los tres oponentes (ninja 1,
-ninja 2 y ninja 3) con nuestra implementación del algoritmo y la heurística. El algoritmo a
-implementar podía ser o MiniMax o AlphaBeta (consiguiendo en este último una profundidad de
-búsqueda mayor, y por tanto, mejores resultados).
+- This project consists of the design of search algorithms with adversaries in an environment of
+play. In this case, the game is the well-known four in a row or connect four, but with a small
+extra feature (bomb tokens).
+These bomb tokens add a new action to the game, which is to make them explode. In doing so,
+we will destroy all the existing squares in that row that belong to the adversary, in this way, all the
+boxes positioned above these will fall by gravity to the position of the previous pieces
+exploited.
+We have an objective to achieve in this practice, which is to beat the three opponents (ninja 1,
+ninja 2 and ninja 3) with our implementation of the algorithm and heuristics. The algorithm to
+implement could be either MiniMax or AlphaBeta (achieving in the latter a depth of
+higher search, and therefore better results).
 
-- Para ejecutarlo hacer make y luego ./Conecta4Boom.
+- To run it, do make and then ./Conecta4Boom.
